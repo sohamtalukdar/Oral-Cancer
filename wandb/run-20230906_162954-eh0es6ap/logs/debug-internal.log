@@ -1,0 +1,191 @@
+2023-09-06 16:29:54,169 INFO    StreamThr :845679 [internal.py:wandb_internal():86] W&B internal server running at pid: 845679, started at: 2023-09-06 16:29:54.169279
+2023-09-06 16:29:54,171 DEBUG   HandlerThread:845679 [handler.py:handle_request():144] handle_request: status
+2023-09-06 16:29:54,173 INFO    WriterThread:845679 [datastore.py:open_for_write():85] open: /home/soham/oral_cancer/wandb/run-20230906_162954-eh0es6ap/run-eh0es6ap.wandb
+2023-09-06 16:29:54,173 DEBUG   SenderThread:845679 [sender.py:send():379] send: header
+2023-09-06 16:29:54,174 DEBUG   SenderThread:845679 [sender.py:send():379] send: run
+2023-09-06 16:29:54,182 INFO    SenderThread:845679 [sender.py:_maybe_setup_resume():758] checking resume status for None/Oral Cancer/eh0es6ap
+2023-09-06 16:29:57,201 INFO    SenderThread:845679 [dir_watcher.py:__init__():211] watching files in: /home/soham/oral_cancer/wandb/run-20230906_162954-eh0es6ap/files
+2023-09-06 16:29:57,201 INFO    SenderThread:845679 [sender.py:_start_run_threads():1121] run started: eh0es6ap with start time 1693997994.169329
+2023-09-06 16:29:57,201 DEBUG   SenderThread:845679 [sender.py:send_request():406] send_request: summary_record
+2023-09-06 16:29:57,202 INFO    SenderThread:845679 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-06 16:29:57,204 DEBUG   HandlerThread:845679 [handler.py:handle_request():144] handle_request: check_version
+2023-09-06 16:29:57,204 DEBUG   SenderThread:845679 [sender.py:send_request():406] send_request: check_version
+2023-09-06 16:29:57,358 DEBUG   HandlerThread:845679 [handler.py:handle_request():144] handle_request: run_start
+2023-09-06 16:29:57,362 DEBUG   HandlerThread:845679 [system_info.py:__init__():31] System info init
+2023-09-06 16:29:57,362 DEBUG   HandlerThread:845679 [system_info.py:__init__():46] System info init done
+2023-09-06 16:29:57,362 INFO    HandlerThread:845679 [system_monitor.py:start():181] Starting system monitor
+2023-09-06 16:29:57,362 INFO    SystemMonitor:845679 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-09-06 16:29:57,362 INFO    SystemMonitor:845679 [interfaces.py:start():190] Started cpu monitoring
+2023-09-06 16:29:57,363 INFO    HandlerThread:845679 [system_monitor.py:probe():201] Collecting system info
+2023-09-06 16:29:57,363 INFO    SystemMonitor:845679 [interfaces.py:start():190] Started disk monitoring
+2023-09-06 16:29:57,363 INFO    SystemMonitor:845679 [interfaces.py:start():190] Started gpu monitoring
+2023-09-06 16:29:57,364 INFO    SystemMonitor:845679 [interfaces.py:start():190] Started memory monitoring
+2023-09-06 16:29:57,364 INFO    SystemMonitor:845679 [interfaces.py:start():190] Started network monitoring
+2023-09-06 16:29:57,384 DEBUG   HandlerThread:845679 [system_info.py:probe():195] Probing system
+2023-09-06 16:29:57,387 DEBUG   HandlerThread:845679 [gitlib.py:_init_repo():53] git repository is invalid
+2023-09-06 16:29:57,387 DEBUG   HandlerThread:845679 [system_info.py:probe():240] Probing system done
+2023-09-06 16:29:57,387 DEBUG   HandlerThread:845679 [system_monitor.py:probe():210] {'os': 'Linux-5.15.0-82-generic-x86_64-with-glibc2.29', 'python': '3.8.10', 'heartbeatAt': '2023-09-06T10:59:57.384090', 'startedAt': '2023-09-06T10:59:54.165905', 'docker': None, 'cuda': None, 'args': ('--workers', '8', '--device', '0', '--batch-size', '16', '--data', 'data.yaml', '--img', '1280', '1280', '--cfg', 'yolov7-e6e.yaml', '--weights', 'yolov7-e6e.pt', '--name', 'yolov7-w6', '--hyp', 'hyp.scratch.p6.yaml', '--epoch', '10'), 'state': 'running', 'program': 'train_aux.py', 'codePath': 'train_aux.py', 'host': 'asadeltraining', 'username': 'soham', 'executable': '/home/soham/.virtualenvs/yolov7/bin/python', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2732.42475, 'min': 800.0, 'max': 4825.0}, 'cpu_freq_per_core': [{'current': 2500.0, 'min': 800.0, 'max': 4800.0}, {'current': 2500.0, 'min': 800.0, 'max': 4800.0}, {'current': 2500.0, 'min': 800.0, 'max': 4800.0}, {'current': 2500.0, 'min': 800.0, 'max': 4800.0}, {'current': 4719.648, 'min': 800.0, 'max': 4900.0}, {'current': 3999.148, 'min': 800.0, 'max': 4900.0}, {'current': 2500.0, 'min': 800.0, 'max': 4800.0}, {'current': 2500.0, 'min': 800.0, 'max': 4800.0}, {'current': 2500.0, 'min': 800.0, 'max': 4800.0}, {'current': 2500.0, 'min': 800.0, 'max': 4800.0}, {'current': 2500.0, 'min': 800.0, 'max': 4800.0}, {'current': 2500.0, 'min': 800.0, 'max': 4800.0}, {'current': 2500.0, 'min': 800.0, 'max': 4900.0}, {'current': 2500.0, 'min': 800.0, 'max': 4900.0}, {'current': 2500.0, 'min': 800.0, 'max': 4800.0}, {'current': 2500.0, 'min': 800.0, 'max': 4800.0}], 'disk': {'total': 456.8854446411133, 'used': 299.48487091064453}, 'gpu': 'NVIDIA GeForce RTX 4090', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4090', 'memory_total': 25757220864}], 'memory': {'total': 62.650108337402344}}
+2023-09-06 16:29:57,387 INFO    HandlerThread:845679 [system_monitor.py:probe():211] Finished collecting system info
+2023-09-06 16:29:57,387 INFO    HandlerThread:845679 [system_monitor.py:probe():214] Publishing system info
+2023-09-06 16:29:57,387 DEBUG   HandlerThread:845679 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-09-06 16:29:57,387 DEBUG   HandlerThread:845679 [system_info.py:_save_pip():67] Saving pip packages done
+2023-09-06 16:29:57,387 INFO    HandlerThread:845679 [system_monitor.py:probe():216] Finished publishing system info
+2023-09-06 16:29:57,390 DEBUG   SenderThread:845679 [sender.py:send():379] send: files
+2023-09-06 16:29:57,390 INFO    SenderThread:845679 [sender.py:_save_file():1375] saving file wandb-metadata.json with policy now
+2023-09-06 16:29:57,393 DEBUG   HandlerThread:845679 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-06 16:29:57,393 DEBUG   SenderThread:845679 [sender.py:send_request():406] send_request: stop_status
+2023-09-06 16:29:57,810 DEBUG   SenderThread:845679 [sender.py:send():379] send: telemetry
+2023-09-06 16:29:57,811 DEBUG   SenderThread:845679 [sender.py:send():379] send: telemetry
+2023-09-06 16:29:57,811 DEBUG   SenderThread:845679 [sender.py:send():379] send: config
+2023-09-06 16:29:57,811 DEBUG   SenderThread:845679 [sender.py:send():379] send: config
+2023-09-06 16:29:58,202 INFO    Thread-12 :845679 [dir_watcher.py:_on_file_created():271] file/dir created: /home/soham/oral_cancer/wandb/run-20230906_162954-eh0es6ap/files/output.log
+2023-09-06 16:29:58,202 INFO    Thread-12 :845679 [dir_watcher.py:_on_file_created():271] file/dir created: /home/soham/oral_cancer/wandb/run-20230906_162954-eh0es6ap/files/wandb-metadata.json
+2023-09-06 16:29:58,202 INFO    Thread-12 :845679 [dir_watcher.py:_on_file_created():271] file/dir created: /home/soham/oral_cancer/wandb/run-20230906_162954-eh0es6ap/files/wandb-summary.json
+2023-09-06 16:29:58,202 INFO    Thread-12 :845679 [dir_watcher.py:_on_file_created():271] file/dir created: /home/soham/oral_cancer/wandb/run-20230906_162954-eh0es6ap/files/requirements.txt
+2023-09-06 16:29:58,592 INFO    wandb-upload_0:845679 [upload_job.py:push():131] Uploaded file /tmp/tmpp72y93z9wandb/ki4depnz-wandb-metadata.json
+2023-09-06 16:29:59,368 DEBUG   HandlerThread:845679 [handler.py:handle_request():144] handle_request: status_report
+2023-09-06 16:30:00,202 INFO    Thread-12 :845679 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/soham/oral_cancer/wandb/run-20230906_162954-eh0es6ap/files/output.log
+2023-09-06 16:30:02,204 INFO    Thread-12 :845679 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/soham/oral_cancer/wandb/run-20230906_162954-eh0es6ap/files/output.log
+2023-09-06 16:30:04,205 INFO    Thread-12 :845679 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/soham/oral_cancer/wandb/run-20230906_162954-eh0es6ap/files/output.log
+2023-09-06 16:30:05,319 DEBUG   HandlerThread:845679 [handler.py:handle_request():144] handle_request: status_report
+2023-09-06 16:30:06,100 DEBUG   SenderThread:845679 [sender.py:send():379] send: exit
+2023-09-06 16:30:06,100 INFO    SenderThread:845679 [sender.py:send_exit():584] handling exit code: 1
+2023-09-06 16:30:06,100 INFO    SenderThread:845679 [sender.py:send_exit():586] handling runtime: 8
+2023-09-06 16:30:06,101 INFO    SenderThread:845679 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-06 16:30:06,101 INFO    SenderThread:845679 [sender.py:send_exit():592] send defer
+2023-09-06 16:30:06,101 DEBUG   HandlerThread:845679 [handler.py:handle_request():144] handle_request: defer
+2023-09-06 16:30:06,101 INFO    HandlerThread:845679 [handler.py:handle_request_defer():170] handle defer: 0
+2023-09-06 16:30:06,101 DEBUG   SenderThread:845679 [sender.py:send_request():406] send_request: defer
+2023-09-06 16:30:06,101 INFO    SenderThread:845679 [sender.py:send_request_defer():608] handle sender defer: 0
+2023-09-06 16:30:06,101 INFO    SenderThread:845679 [sender.py:transition_state():612] send defer: 1
+2023-09-06 16:30:06,101 DEBUG   HandlerThread:845679 [handler.py:handle_request():144] handle_request: defer
+2023-09-06 16:30:06,101 INFO    HandlerThread:845679 [handler.py:handle_request_defer():170] handle defer: 1
+2023-09-06 16:30:06,101 DEBUG   SenderThread:845679 [sender.py:send_request():406] send_request: defer
+2023-09-06 16:30:06,101 INFO    SenderThread:845679 [sender.py:send_request_defer():608] handle sender defer: 1
+2023-09-06 16:30:06,101 INFO    SenderThread:845679 [sender.py:transition_state():612] send defer: 2
+2023-09-06 16:30:06,101 DEBUG   HandlerThread:845679 [handler.py:handle_request():144] handle_request: defer
+2023-09-06 16:30:06,101 INFO    HandlerThread:845679 [handler.py:handle_request_defer():170] handle defer: 2
+2023-09-06 16:30:06,102 INFO    HandlerThread:845679 [system_monitor.py:finish():190] Stopping system monitor
+2023-09-06 16:30:06,102 DEBUG   SystemMonitor:845679 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-09-06 16:30:06,102 DEBUG   SystemMonitor:845679 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-09-06 16:30:06,102 DEBUG   SystemMonitor:845679 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-09-06 16:30:06,102 INFO    HandlerThread:845679 [interfaces.py:finish():202] Joined cpu monitor
+2023-09-06 16:30:06,102 INFO    HandlerThread:845679 [interfaces.py:finish():202] Joined disk monitor
+2023-09-06 16:30:06,132 INFO    HandlerThread:845679 [interfaces.py:finish():202] Joined gpu monitor
+2023-09-06 16:30:06,132 INFO    HandlerThread:845679 [interfaces.py:finish():202] Joined memory monitor
+2023-09-06 16:30:06,132 INFO    HandlerThread:845679 [interfaces.py:finish():202] Joined network monitor
+2023-09-06 16:30:06,132 DEBUG   SenderThread:845679 [sender.py:send_request():406] send_request: defer
+2023-09-06 16:30:06,132 INFO    SenderThread:845679 [sender.py:send_request_defer():608] handle sender defer: 2
+2023-09-06 16:30:06,132 INFO    SenderThread:845679 [sender.py:transition_state():612] send defer: 3
+2023-09-06 16:30:06,132 DEBUG   SenderThread:845679 [sender.py:send():379] send: stats
+2023-09-06 16:30:06,132 DEBUG   HandlerThread:845679 [handler.py:handle_request():144] handle_request: defer
+2023-09-06 16:30:06,132 INFO    HandlerThread:845679 [handler.py:handle_request_defer():170] handle defer: 3
+2023-09-06 16:30:06,132 DEBUG   SenderThread:845679 [sender.py:send_request():406] send_request: defer
+2023-09-06 16:30:06,132 INFO    SenderThread:845679 [sender.py:send_request_defer():608] handle sender defer: 3
+2023-09-06 16:30:06,132 INFO    SenderThread:845679 [sender.py:transition_state():612] send defer: 4
+2023-09-06 16:30:06,133 DEBUG   HandlerThread:845679 [handler.py:handle_request():144] handle_request: defer
+2023-09-06 16:30:06,133 INFO    HandlerThread:845679 [handler.py:handle_request_defer():170] handle defer: 4
+2023-09-06 16:30:06,133 DEBUG   SenderThread:845679 [sender.py:send_request():406] send_request: defer
+2023-09-06 16:30:06,133 INFO    SenderThread:845679 [sender.py:send_request_defer():608] handle sender defer: 4
+2023-09-06 16:30:06,133 INFO    SenderThread:845679 [sender.py:transition_state():612] send defer: 5
+2023-09-06 16:30:06,133 DEBUG   HandlerThread:845679 [handler.py:handle_request():144] handle_request: defer
+2023-09-06 16:30:06,133 INFO    HandlerThread:845679 [handler.py:handle_request_defer():170] handle defer: 5
+2023-09-06 16:30:06,133 DEBUG   SenderThread:845679 [sender.py:send():379] send: summary
+2023-09-06 16:30:06,133 INFO    SenderThread:845679 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-06 16:30:06,133 DEBUG   SenderThread:845679 [sender.py:send_request():406] send_request: defer
+2023-09-06 16:30:06,133 INFO    SenderThread:845679 [sender.py:send_request_defer():608] handle sender defer: 5
+2023-09-06 16:30:06,133 INFO    SenderThread:845679 [sender.py:transition_state():612] send defer: 6
+2023-09-06 16:30:06,133 DEBUG   HandlerThread:845679 [handler.py:handle_request():144] handle_request: defer
+2023-09-06 16:30:06,133 INFO    HandlerThread:845679 [handler.py:handle_request_defer():170] handle defer: 6
+2023-09-06 16:30:06,134 DEBUG   SenderThread:845679 [sender.py:send_request():406] send_request: defer
+2023-09-06 16:30:06,134 INFO    SenderThread:845679 [sender.py:send_request_defer():608] handle sender defer: 6
+2023-09-06 16:30:06,136 DEBUG   HandlerThread:845679 [handler.py:handle_request():144] handle_request: status_report
+2023-09-06 16:30:06,205 INFO    Thread-12 :845679 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/soham/oral_cancer/wandb/run-20230906_162954-eh0es6ap/files/wandb-summary.json
+2023-09-06 16:30:06,584 INFO    SenderThread:845679 [sender.py:transition_state():612] send defer: 7
+2023-09-06 16:30:06,584 DEBUG   HandlerThread:845679 [handler.py:handle_request():144] handle_request: defer
+2023-09-06 16:30:06,584 INFO    HandlerThread:845679 [handler.py:handle_request_defer():170] handle defer: 7
+2023-09-06 16:30:06,585 DEBUG   SenderThread:845679 [sender.py:send_request():406] send_request: defer
+2023-09-06 16:30:06,585 INFO    SenderThread:845679 [sender.py:send_request_defer():608] handle sender defer: 7
+2023-09-06 16:30:07,100 DEBUG   HandlerThread:845679 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-06 16:30:07,206 INFO    Thread-12 :845679 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/soham/oral_cancer/wandb/run-20230906_162954-eh0es6ap/files/config.yaml
+2023-09-06 16:30:07,959 INFO    SenderThread:845679 [sender.py:transition_state():612] send defer: 8
+2023-09-06 16:30:07,959 DEBUG   SenderThread:845679 [sender.py:send_request():406] send_request: poll_exit
+2023-09-06 16:30:07,960 DEBUG   HandlerThread:845679 [handler.py:handle_request():144] handle_request: defer
+2023-09-06 16:30:07,960 INFO    HandlerThread:845679 [handler.py:handle_request_defer():170] handle defer: 8
+2023-09-06 16:30:07,960 DEBUG   SenderThread:845679 [sender.py:send_request():406] send_request: defer
+2023-09-06 16:30:07,960 INFO    SenderThread:845679 [sender.py:send_request_defer():608] handle sender defer: 8
+2023-09-06 16:30:07,960 INFO    SenderThread:845679 [job_builder.py:build():281] Attempting to build job artifact
+2023-09-06 16:30:07,960 INFO    SenderThread:845679 [job_builder.py:_get_source_type():411] no source found
+2023-09-06 16:30:07,960 INFO    SenderThread:845679 [sender.py:transition_state():612] send defer: 9
+2023-09-06 16:30:07,960 DEBUG   HandlerThread:845679 [handler.py:handle_request():144] handle_request: defer
+2023-09-06 16:30:07,960 INFO    HandlerThread:845679 [handler.py:handle_request_defer():170] handle defer: 9
+2023-09-06 16:30:07,961 DEBUG   SenderThread:845679 [sender.py:send_request():406] send_request: defer
+2023-09-06 16:30:07,961 INFO    SenderThread:845679 [sender.py:send_request_defer():608] handle sender defer: 9
+2023-09-06 16:30:07,961 INFO    SenderThread:845679 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-09-06 16:30:08,102 DEBUG   HandlerThread:845679 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-06 16:30:08,207 INFO    Thread-12 :845679 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/soham/oral_cancer/wandb/run-20230906_162954-eh0es6ap/files/output.log
+2023-09-06 16:30:08,208 INFO    SenderThread:845679 [dir_watcher.py:finish():388] scan: /home/soham/oral_cancer/wandb/run-20230906_162954-eh0es6ap/files
+2023-09-06 16:30:08,208 INFO    SenderThread:845679 [dir_watcher.py:finish():402] scan save: /home/soham/oral_cancer/wandb/run-20230906_162954-eh0es6ap/files/wandb-summary.json wandb-summary.json
+2023-09-06 16:30:08,209 INFO    SenderThread:845679 [dir_watcher.py:finish():402] scan save: /home/soham/oral_cancer/wandb/run-20230906_162954-eh0es6ap/files/requirements.txt requirements.txt
+2023-09-06 16:30:08,209 INFO    SenderThread:845679 [dir_watcher.py:finish():402] scan save: /home/soham/oral_cancer/wandb/run-20230906_162954-eh0es6ap/files/config.yaml config.yaml
+2023-09-06 16:30:08,215 INFO    SenderThread:845679 [dir_watcher.py:finish():402] scan save: /home/soham/oral_cancer/wandb/run-20230906_162954-eh0es6ap/files/wandb-metadata.json wandb-metadata.json
+2023-09-06 16:30:08,215 INFO    SenderThread:845679 [dir_watcher.py:finish():402] scan save: /home/soham/oral_cancer/wandb/run-20230906_162954-eh0es6ap/files/output.log output.log
+2023-09-06 16:30:08,215 INFO    SenderThread:845679 [sender.py:transition_state():612] send defer: 10
+2023-09-06 16:30:08,216 DEBUG   SenderThread:845679 [sender.py:send_request():406] send_request: poll_exit
+2023-09-06 16:30:08,223 DEBUG   HandlerThread:845679 [handler.py:handle_request():144] handle_request: defer
+2023-09-06 16:30:08,223 INFO    HandlerThread:845679 [handler.py:handle_request_defer():170] handle defer: 10
+2023-09-06 16:30:08,224 DEBUG   SenderThread:845679 [sender.py:send_request():406] send_request: defer
+2023-09-06 16:30:08,236 INFO    SenderThread:845679 [sender.py:send_request_defer():608] handle sender defer: 10
+2023-09-06 16:30:08,236 INFO    SenderThread:845679 [file_pusher.py:finish():159] shutting down file pusher
+2023-09-06 16:30:08,924 INFO    wandb-upload_0:845679 [upload_job.py:push():131] Uploaded file /home/soham/oral_cancer/wandb/run-20230906_162954-eh0es6ap/files/wandb-summary.json
+2023-09-06 16:30:09,026 INFO    wandb-upload_1:845679 [upload_job.py:push():131] Uploaded file /home/soham/oral_cancer/wandb/run-20230906_162954-eh0es6ap/files/requirements.txt
+2023-09-06 16:30:09,103 DEBUG   HandlerThread:845679 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-06 16:30:09,104 DEBUG   SenderThread:845679 [sender.py:send_request():406] send_request: poll_exit
+2023-09-06 16:30:09,106 INFO    wandb-upload_3:845679 [upload_job.py:push():131] Uploaded file /home/soham/oral_cancer/wandb/run-20230906_162954-eh0es6ap/files/output.log
+2023-09-06 16:30:09,112 INFO    wandb-upload_2:845679 [upload_job.py:push():131] Uploaded file /home/soham/oral_cancer/wandb/run-20230906_162954-eh0es6ap/files/config.yaml
+2023-09-06 16:30:09,312 INFO    Thread-11 :845679 [sender.py:transition_state():612] send defer: 11
+2023-09-06 16:30:09,313 DEBUG   HandlerThread:845679 [handler.py:handle_request():144] handle_request: defer
+2023-09-06 16:30:09,313 INFO    HandlerThread:845679 [handler.py:handle_request_defer():170] handle defer: 11
+2023-09-06 16:30:09,314 DEBUG   SenderThread:845679 [sender.py:send_request():406] send_request: defer
+2023-09-06 16:30:09,314 INFO    SenderThread:845679 [sender.py:send_request_defer():608] handle sender defer: 11
+2023-09-06 16:30:09,315 INFO    SenderThread:845679 [file_pusher.py:join():164] waiting for file pusher
+2023-09-06 16:30:09,315 INFO    SenderThread:845679 [sender.py:transition_state():612] send defer: 12
+2023-09-06 16:30:09,315 DEBUG   HandlerThread:845679 [handler.py:handle_request():144] handle_request: defer
+2023-09-06 16:30:09,315 INFO    HandlerThread:845679 [handler.py:handle_request_defer():170] handle defer: 12
+2023-09-06 16:30:09,316 DEBUG   SenderThread:845679 [sender.py:send_request():406] send_request: defer
+2023-09-06 16:30:09,316 INFO    SenderThread:845679 [sender.py:send_request_defer():608] handle sender defer: 12
+2023-09-06 16:30:09,316 INFO    SenderThread:845679 [file_stream.py:finish():593] file stream finish called
+2023-09-06 16:30:10,105 DEBUG   HandlerThread:845679 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-06 16:30:10,160 INFO    SenderThread:845679 [file_stream.py:finish():597] file stream finish is done
+2023-09-06 16:30:10,160 INFO    SenderThread:845679 [sender.py:transition_state():612] send defer: 13
+2023-09-06 16:30:10,160 DEBUG   SenderThread:845679 [sender.py:send_request():406] send_request: poll_exit
+2023-09-06 16:30:10,160 DEBUG   HandlerThread:845679 [handler.py:handle_request():144] handle_request: defer
+2023-09-06 16:30:10,160 INFO    HandlerThread:845679 [handler.py:handle_request_defer():170] handle defer: 13
+2023-09-06 16:30:10,161 DEBUG   SenderThread:845679 [sender.py:send_request():406] send_request: defer
+2023-09-06 16:30:10,161 INFO    SenderThread:845679 [sender.py:send_request_defer():608] handle sender defer: 13
+2023-09-06 16:30:10,161 INFO    SenderThread:845679 [sender.py:transition_state():612] send defer: 14
+2023-09-06 16:30:10,161 DEBUG   HandlerThread:845679 [handler.py:handle_request():144] handle_request: defer
+2023-09-06 16:30:10,161 DEBUG   SenderThread:845679 [sender.py:send():379] send: final
+2023-09-06 16:30:10,161 INFO    HandlerThread:845679 [handler.py:handle_request_defer():170] handle defer: 14
+2023-09-06 16:30:10,161 DEBUG   SenderThread:845679 [sender.py:send():379] send: footer
+2023-09-06 16:30:10,162 DEBUG   SenderThread:845679 [sender.py:send_request():406] send_request: defer
+2023-09-06 16:30:10,162 INFO    SenderThread:845679 [sender.py:send_request_defer():608] handle sender defer: 14
+2023-09-06 16:30:10,162 DEBUG   HandlerThread:845679 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-06 16:30:10,163 DEBUG   HandlerThread:845679 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-06 16:30:10,165 DEBUG   HandlerThread:845679 [handler.py:handle_request():144] handle_request: server_info
+2023-09-06 16:30:10,165 DEBUG   SenderThread:845679 [sender.py:send_request():406] send_request: poll_exit
+2023-09-06 16:30:10,166 DEBUG   SenderThread:845679 [sender.py:send_request():406] send_request: poll_exit
+2023-09-06 16:30:10,166 DEBUG   SenderThread:845679 [sender.py:send_request():406] send_request: server_info
+2023-09-06 16:30:10,172 DEBUG   HandlerThread:845679 [handler.py:handle_request():144] handle_request: get_summary
+2023-09-06 16:30:10,173 DEBUG   HandlerThread:845679 [handler.py:handle_request():144] handle_request: sampled_history
+2023-09-06 16:30:10,174 DEBUG   HandlerThread:845679 [handler.py:handle_request():144] handle_request: job_info
+2023-09-06 16:30:10,478 DEBUG   SenderThread:845679 [sender.py:send_request():406] send_request: job_info
+2023-09-06 16:30:10,478 INFO    MainThread:845679 [wandb_run.py:_footer_history_summary_info():3481] rendering history
+2023-09-06 16:30:10,479 INFO    MainThread:845679 [wandb_run.py:_footer_history_summary_info():3513] rendering summary
+2023-09-06 16:30:10,479 INFO    MainThread:845679 [wandb_run.py:_footer_sync_info():3440] logging synced files
+2023-09-06 16:30:10,480 DEBUG   HandlerThread:845679 [handler.py:handle_request():144] handle_request: shutdown
+2023-09-06 16:30:10,480 INFO    HandlerThread:845679 [handler.py:finish():861] shutting down handler
+2023-09-06 16:30:11,175 INFO    WriterThread:845679 [datastore.py:close():294] close: /home/soham/oral_cancer/wandb/run-20230906_162954-eh0es6ap/run-eh0es6ap.wandb
+2023-09-06 16:30:11,478 INFO    SenderThread:845679 [sender.py:finish():1552] shutting down sender
+2023-09-06 16:30:11,479 INFO    SenderThread:845679 [file_pusher.py:finish():159] shutting down file pusher
+2023-09-06 16:30:11,479 INFO    SenderThread:845679 [file_pusher.py:join():164] waiting for file pusher
