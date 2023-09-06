@@ -1,0 +1,139 @@
+{
+    "os": "Linux-5.15.0-82-generic-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2023-09-06T10:55:15.809214",
+    "startedAt": "2023-09-06T10:55:14.385816",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--workers",
+        "8",
+        "--device",
+        "0",
+        "--batch-size",
+        "16",
+        "--data",
+        "data.yaml",
+        "--img",
+        "1280",
+        "1280",
+        "--cfg",
+        "yolov7-e6e.yaml",
+        "--weights",
+        "yolov7-e6e.pt",
+        "--name",
+        "yolov7-w6",
+        "--hyp",
+        "hyp.scratch.p6.yaml"
+    ],
+    "state": "running",
+    "program": "train_aux.py",
+    "codePath": "train_aux.py",
+    "host": "asadeltraining",
+    "username": "soham",
+    "executable": "/home/soham/.virtualenvs/yolov7/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2398.2688749999998,
+        "min": 800.0,
+        "max": 4825.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2500.0,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 2500.0,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 2500.0,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 2500.0,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 2500.0,
+            "min": 800.0,
+            "max": 4900.0
+        },
+        {
+            "current": 806.736,
+            "min": 800.0,
+            "max": 4900.0
+        },
+        {
+            "current": 2500.0,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 2500.0,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 2500.0,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 2500.0,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 2500.0,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 2500.0,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 2500.0,
+            "min": 800.0,
+            "max": 4900.0
+        },
+        {
+            "current": 2500.0,
+            "min": 800.0,
+            "max": 4900.0
+        },
+        {
+            "current": 2500.0,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 2500.0,
+            "min": 800.0,
+            "max": 4800.0
+        }
+    ],
+    "disk": {
+        "total": 456.8854446411133,
+        "used": 298.8684310913086
+    },
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4090",
+            "memory_total": 25757220864
+        }
+    ],
+    "memory": {
+        "total": 62.650108337402344
+    }
+}
