@@ -3,5 +3,5 @@
 The dataset can be downloaded using the command
 
 ``` shell
-aws s3 sync s3://oralcancer/5k_dataset/ ./data/
+aws s3 sync s3://oralcancer/5k_dataset/ ./dataset/
 ```
