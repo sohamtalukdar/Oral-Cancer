@@ -9,7 +9,7 @@ import torch
 import torch.nn as nn
 from torch.utils.mobile_optimizer import optimize_for_mobile
 
-import myproject.myapp.models as models
+import models
 from models.experimental import attempt_load, End2End
 from utils.activations import Hardswish, SiLU
 from utils.general import set_logging, check_img_size
